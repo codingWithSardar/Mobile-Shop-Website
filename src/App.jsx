@@ -11,6 +11,7 @@ import Product from "./pages/Product";
 import WishList from "./pages/WishList";
 import Cart from "./pages/Cart";
 import PlaceOrder from "./pages/PlaceOrder";
+import Register from "./pages/Register";
 import Order from "./pages/Order";
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/wishlist" element={<WishList />} />
         <Route path="/product/:id" element={<Product />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
 
       <Footer />
